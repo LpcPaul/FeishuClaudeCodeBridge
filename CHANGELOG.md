@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- Added initial Feishu permission JSON for message, card, document, and group creation capabilities.
+- Added install-time permission reminder before collecting Feishu app credentials.
+
 ## 0.1.0 - 2026-05-29
 
 Initial public release.

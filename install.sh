@@ -55,6 +55,22 @@ prompt_value() {
   printf '%s' "$current"
 }
 
+cat <<'NOTICE'
+Before installing, make sure the Feishu app has these initial permissions/events:
+  im:message.p2p_msg:readonly
+  im:message.group_at_msg:readonly
+  im:message:send_as_bot
+  im.message.receive_v1
+Recommended if you want cards, docs, or group creation later:
+  card.action.trigger
+  cardkit:card:write
+  docx:document or docx:document:create
+  im:chat:create
+  im:chat
+See docs/initial-permissions.md for the import JSON.
+
+NOTICE
+
 FEISHU_APP_ID="$(prompt_value "Feishu App ID" "${FEISHU_APP_ID:-}")"
 FEISHU_APP_SECRET="$(prompt_secret "Feishu App Secret" "${FEISHU_APP_SECRET:-}")"
 

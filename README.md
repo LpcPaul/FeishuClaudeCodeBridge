@@ -31,6 +31,8 @@ FeishuClaudeCodeBridge 是一个本机常驻服务，用飞书机器人把消息
 
 飞书机器人创建步骤见 [docs/feishu-app-setup.md](docs/feishu-app-setup.md)。
 
+如果你希望后续直接使用卡片按钮、飞书文档或一条命令创建群组，建议第一次配置应用时就按 [docs/initial-permissions.md](docs/initial-permissions.md) 把权限一次性申请好。
+
 ## 一键安装
 
 macOS 用户可以运行：
@@ -124,6 +126,7 @@ Bridge 默认用 Claude Code 非交互模式运行：`claude -p --output-format 
 ## 文档
 
 - [飞书机器人创建与权限配置](docs/feishu-app-setup.md)
+- [初始权限清单](docs/initial-permissions.md)
 - [安装与卸载](docs/install.md)
 - [权限说明](docs/permissions.md)
 - [架构说明](docs/architecture.md)
