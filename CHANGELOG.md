@@ -1,9 +1,10 @@
 # Changelog
 
-## Unreleased
+## 0.1.1 - 2026-05-30
 
 - Added initial Feishu permission JSON for message, card, document, and group creation capabilities.
 - Added install-time permission reminder before collecting Feishu app credentials.
+- Added post-install Feishu callback checklist to prevent card button `code: 200340` setup issues.
 
 ## 0.1.0 - 2026-05-29
 

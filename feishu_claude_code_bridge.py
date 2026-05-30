@@ -26,7 +26,7 @@ from typing import Any
 
 DEFAULT_RUNTIME_DIR = Path.home() / "Library" / "Application Support" / "FeishuClaudeCodeBridge"
 DEFAULT_WORKDIR = Path.home()
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 DEFAULT_TOPIC_IDLE_SECONDS = 2 * 60 * 60
 DEFAULT_TASK_PROGRESS_SECONDS = 2 * 60 * 60
 DEFAULT_ACK_TEXT = "收到，我要开始干活了，稍等我"

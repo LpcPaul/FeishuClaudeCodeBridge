@@ -138,6 +138,6 @@ Bridge 默认用 Claude Code 非交互模式运行：`claude -p --output-format 
 
 ## 版本
 
-当前版本：`0.1.0`
+当前版本：`0.1.1`
 
 版本记录见 [CHANGELOG.md](CHANGELOG.md)。
